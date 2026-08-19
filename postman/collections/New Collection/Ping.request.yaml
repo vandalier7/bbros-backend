@@ -1,0 +1,6 @@
+$kind: http-request
+name: Ping
+description: ""
+url: http://localhost:3000/ping
+method: GET
+order: 1000

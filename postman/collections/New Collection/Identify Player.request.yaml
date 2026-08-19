@@ -1,0 +1,6 @@
+$kind: websocket-request
+description: ""
+url: ws://localhost:3000
+settings: {}
+messages: .resources/Identify Player.resources/messages
+order: 3000

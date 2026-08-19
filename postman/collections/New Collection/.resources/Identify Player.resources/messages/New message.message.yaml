@@ -1,0 +1,4 @@
+$kind: websocket-message
+content: '{"type":"identify","playerId":"01218b26-945f-40bd-a08b-6f505c15facc"}'
+contentType: text
+order: 1787118237249
