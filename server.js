@@ -12,6 +12,8 @@ const lobbiesRoute = require('./routes/lobbies');
 const app = express();
 app.use(express.json());
 
+app.set('trust proxy', 'loopback');
+
 // Test route — proves REST wiring works before we build real lobby logic.
 app.get('/ping', (req, res) => {
   res.json({ ok: true, message: 'pong' });
